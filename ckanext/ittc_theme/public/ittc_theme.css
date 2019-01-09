@@ -1,0 +1,56 @@
+.account-masthead {
+    background-color: rgb(40, 40, 40);
+}
+
+.hero {
+    background: #ffffff;
+    display: block;
+    position: relative;
+}
+
+.hero .row {
+    z-index: 1;
+}
+
+.hero::after {  
+    content:"";
+    background: url(banner_image.jpg);
+    opacity: 0.5;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.masthead {
+    background-color: #2980B9;
+  }
+
+.masthead .navigation .nav-pills li a:hover {
+    background-color: #3F8DC0;
+}
+
+.masthead .navigation .nav-pills li.active a {
+    background-color: #3F8DC0;
+}
+
+body {
+    background-color: #2980B9;
+  }
+
+.site-footer {
+    background-color: #2980B9;
+}
+
+.btn-primary {
+    background-color: #2980B9;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #3F8DC0;
+}
