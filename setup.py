@@ -25,7 +25,7 @@ setup(
 
     # Author details
     author='''Samuel Bradley''',
-    author_email='''iro.au''',
+    author_email='''SamBradley@csiro.au''',
 
     # Choose your license
     license='AGPL',
