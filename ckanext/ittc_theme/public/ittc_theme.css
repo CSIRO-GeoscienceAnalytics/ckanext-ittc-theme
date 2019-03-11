@@ -39,37 +39,37 @@
 }
 
 .masthead {
-    background-color: #2980B9;
-  }
+    background-color: rgb(228, 181, 72);
+}
 
 .masthead .navigation .nav-pills li a:hover {
-    background-color: #3F8DC0;
+    background-color: rgb(231, 192, 100);
 }
 
 .masthead .navigation .nav-pills li.active a {
-    background-color: #3F8DC0;
+    background-color: rgb(231, 192, 100);
 }
 
 body {
-    background-color: #2980B9;
+    background-color: #555555;
   }
 
 .site-footer {
-    background-color: #2980B9;
+    background-color: #555555;
 }
 
 .btn-primary {
-    background-color: #2980B9;
+    background-color: rgb(228, 181, 72);
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background-color: #3F8DC0;
+    background-color: rgb(231, 192, 100);
 }
 
 .homepage .module-search .module-content {
-    background-color: #2980B9;
+    background-color: rgb(228, 181, 72);
 }
 
 .homepage .module-search .tags {
-    background-color: #3F8DC0;
+    background-color: rgb(231, 192, 100);
 }
