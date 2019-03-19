@@ -2,12 +2,6 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/SamuelBradley/ckanext-ittc_theme.svg?branch=master
-    :target: https://travis-ci.org/SamuelBradley/ckanext-ittc_theme
-
-.. image:: https://coveralls.io/repos/SamuelBradley/ckanext-ittc_theme/badge.svg
-  :target: https://coveralls.io/r/SamuelBradley/ckanext-ittc_theme
-
 .. image:: https://pypip.in/download/ckanext-ittc_theme/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-ittc_theme/
     :alt: Downloads
@@ -32,26 +26,19 @@
 ckanext-ittc_theme
 =============
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
+.. The theme and dataset schemas for the ITTC CKAN instance
 
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
+Built for CKAN version 2.8.2
 
 
 ------------
 Installation
 ------------
-
-.. Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
 
 To install ckanext-ittc_theme:
 
@@ -71,16 +58,14 @@ To install ckanext-ittc_theme:
 
      sudo service apache2 reload
 
+If you wish to use the Schemas you will need to install https://github.com/ckan/ckanext-scheming
+
 
 ---------------
 Config Settings
 ---------------
 
-Document any optional config settings here. For example::
-
-    # The minimum number of hours to wait before re-checking a resource
-    # (optional, default: 24).
-    ckanext.ittc_theme.some_setting = some_default_value
+Currently no custom config
 
 
 ------------------------
