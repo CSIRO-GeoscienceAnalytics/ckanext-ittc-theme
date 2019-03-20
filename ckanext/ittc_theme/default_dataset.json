@@ -31,8 +31,71 @@
       {
         "field_name": "license_id",
         "label": "License",
-        "form_snippet": "license.html",
-        "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
+        "preset": "select",
+        "help_text": "License definitions and additional information can be found at http://opendefinition.org/",
+        "choices": [
+          {
+            "value": "notspecified",
+            "label": "License Not Specified"
+          },
+          {
+            "value": "PDDL-1.0",   
+            "label": "Open Data Commons Public Domain Dedication and Licence 1.0"
+          },
+          {  
+            "value": "ODbL-1.0",
+            "label": "Open Data Commons Open Database License 1.0"
+          },
+          {  
+            "value": "ODC-BY-1.0",
+            "label": "Open Data Commons Attribution License 1.0"
+          },
+          {
+            "value": "CC0-1.0",
+            "label": "CC0 1.0"
+          },
+          {
+            "value": "CC-BY-4.0",
+            "label": "Creative Commons Attribution 4.0"
+          },
+          {
+        
+            "value": "CC-BY-SA-4.0",
+            "label": "Creative Commons Attribution Share-Alike 4.0"
+          },
+          {
+            "value": "GFDL-1.3-no-cover-texts-no-invariant-sections",
+            "label": "GNU Free Documentation License 1.3 with no cover texts and no invariant sections"
+          },
+          {
+            "value": "other-open",
+            "label": "Other (Open)"
+          },
+          {
+            "value": "other-pd",
+            "label": "Other (Public Domain)"
+          },
+          {
+            "value": "other-at",
+            "label": "Other (Attribution)"
+          },
+          {
+            "value": "OGL-UK-2.0",
+            "label": "Open Government Licence 2.0 (United Kingdom)"
+          },
+          {
+            "value": "CC-BY-NC-4.0",
+            "label": "Creative Commons Attribution-NonCommercial 4.0"
+          },
+          {
+            "value": "other-nc",
+            "label": "Other (Non-Commercial)"
+          },
+          {
+            "value": "other-closed",
+            "label": "Other (Not Open)"
+          }
+        ]
       },
       {
         "field_name": "owner_org",
